@@ -3,6 +3,6 @@
 
   outputs = _: {
     homeManagerModules.catppuccin = import ./modules/home-manager;
-    darwinModules.catppuccin = import ./modules/nixdarwin;
+    darwinModules.catppuccin = import ./modules/nixos;
   };
 }
